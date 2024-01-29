@@ -16,24 +16,28 @@ Create a `.env` file in the root directory and add the necessary environment var
 `npm install`
 
 ### Docker Setup
-Start the Docker Container for PostgreSQL
+#### Start the Docker Container for PostgreSQL Run the following command: 
 
-Run the following command: 
 `docker-compose up -d`
 
 ### DB Setup
 
-Initialize Prisma:
+#### Initialize Prisma:
+
 `npx prisma init`
 
 At this point, open a database client of your choice (I used DBeaver) and connect to the postgresql db using
 the credentials provided. Test the connection. You should see it connected and at this point there should be no tables in the db.
 
 #### Run Migrations
-Run the following command to run the db migrations. After this, you should see tables (no records or data) in your db
+##### Run the following command to run the db migrations. After this, you should see tables (no records or data) in your db
+
+`npx prisma migrate dev`
+
 
 #### Seed the DB
 `npm run seed`
+
 Now you should see data in your database. 
 
 ### Start the Application
@@ -45,6 +49,7 @@ Now you should see data in your database.
 ### Additional Scripts
 ### Resetting the DB
 `npm run reset-db`
+
 Make sure to reset the DB after before running the tests as the test suite affects the actual database
 
 
