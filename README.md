@@ -5,6 +5,12 @@ This API is a backend service for managing restaurant reservations.
 
 ## Setup Instructions
 
+### Prerequisites
+
+1. **Node.js:** You need to have node.js installed to run the application. You can download and install the latest version from node's website here: https://nodejs.org/
+2. **Docker:** Docker is used to setup the PostgreSQL Database. Please install Docker Desktop from their website if you don't already have it on your machine: https://www.docker.com/products/docker-desktop/
+3. **Prisma CLI:** Prisma will be included in the package.json. You will need it to run Prisma commands. Install it globally using the following command before completing the next steps: `npm install -g prisma` 
+
 ### Clone the Repository
 `git clone https://github.com/shivampatel215/restaurant-api.git`
 `cd restaurant-api`
