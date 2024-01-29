@@ -34,6 +34,10 @@ the credentials provided. Test the connection. You should see it connected and a
 
 `npx prisma migrate dev`
 
+#### Run the following command to generate the prisma client. 
+
+`npx prisma generate`
+
 
 #### Seed the DB
 `npm run seed`
