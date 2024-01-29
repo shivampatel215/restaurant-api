@@ -1,4 +1,4 @@
-# restaurant-api
+# Restaurant-Reservation-API 
 Restaurant API with a social Twist (Rec.us)
 
 This API is a backend service for managing restaurant reservations. 
