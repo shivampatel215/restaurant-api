@@ -26,6 +26,8 @@ Create a `.env` file in the root directory and add the necessary environment var
 
 `docker-compose up -d`
 
+After running the docker command, open docker desktop (or use terminal) to ensure that the container is up and running
+
 ### DB Setup
 
 #### Initialize Prisma:
