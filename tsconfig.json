@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+    //   "target": "es5",
+      "module": "commonjs", 
+      "rootDir": "./src",
+      "outDir": "./dist", 
+      "esModuleInterop": true, 
+      "strict": true ,
+      "experimentalDecorators": true,
+      "target": "es2015",
+
+
+    },
+    "include": ["src/**/*"], // Include all files in the src directory
+    "exclude": ["node_modules"] // Exclude the node_modules directory
+  }
+  
