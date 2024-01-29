@@ -1,4 +1,5 @@
-import { PrismaClient, Endorsement, Restaurant, Table } from '@prisma/client';
+import { PrismaClient, Endorsement, Table } from '@prisma/client';
+import { Restaurant } from './entities/restaurant.entity';
 const prisma = new PrismaClient();
 
 export const searchRestaurants = async (userIds: string[], dateTime: Date) => {
