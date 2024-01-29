@@ -16,7 +16,7 @@ Create a `.env` file in the root directory and add the necessary environment var
 `npm install`
 
 ### Docker Setup
-#### Start the Docker Container for PostgreSQL Run the following command: 
+#### Start the Docker Container for PostgreSQL. Run the following command: 
 
 `docker-compose up -d`
 
@@ -50,7 +50,8 @@ Now you should see data in your database.
 ### Resetting the DB
 `npm run reset-db`
 
-Make sure to reset the DB after before running the tests as the test suite affects the actual database
+Make sure to reset the DB after before running the tests as the test suite affects the actual database. 
+This command can be run at any time if you want to clear your DB. It will repopulate the DB with the initial seed data (clear all existing reservations).
 
 
 
